@@ -1,8 +1,8 @@
 # Site settings
 title: TRPG - 星辰物語
 baseurl: "" # the subpath of your site, e.g. /blog
-description:"A place that store any intresting TRPG article"
-url: "https://bluebear171.github.io" 
+description: "A place that store any intresting TRPG article"
+url:  "https://bluebear171.github.io" 
 # User settings
 username: bluebear119
 user_title: bluebear119 - Game Master & Digital Forensic Investigator
