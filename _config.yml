@@ -1,21 +1,45 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: TRPG - 星辰物語
+description:"A place that store any intresting TRPG article"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
+url: "https://bluebear171.github.io" 
+# User settings
+username: bluebear119
+user_title: bluebear119 - Game Master & Digital Forensic Investigator
+email: rupigcute@protonmail.com
+linkedin_site_id: jenqninglim
+github_username:  bluebear171
+twitter_username: jenqning
+disqus_username: bluebear119
+profile_picture: /assets/img/avatar.png
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+encoding: utf-8
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: ItLearnDir
+    url: https://github.com/Bluebear171/ItLearnDir
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
