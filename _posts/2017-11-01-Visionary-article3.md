@@ -5,7 +5,7 @@ image: ''
 date:   2017-11-01 18:40:00
 tags:
 - TRPG
-description: '讀完大部分頭的文章，讓我們來來發散一下思維，從哲學與藝術的角度重新審核玩家。。。。。。'
+description: 
 categories:
 - TRPG
 ---
